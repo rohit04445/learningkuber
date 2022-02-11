@@ -8,7 +8,7 @@ pipeline {
        }
        stage("Push Image to Repo"){
           steps{
-             sh "docker login -u rohit04445 -p Monty@04445"
+             sh "docker login -u rohit04445 -p Monty@0045"
              sh "docker push rohit04445/newapp:${BUILD_ID}"
     
            
